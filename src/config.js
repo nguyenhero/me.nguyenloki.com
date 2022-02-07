@@ -1,50 +1,42 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'nguyenbv1994@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/nguyenhero',
+    },
+    {
+      name: 'Facebook',
+      url: 'https://www.facebook.com/nguyen.hero',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
-    },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.instagram.com/nguyenloki206',
     },
   ],
 
   navLinks: [
     {
-      name: 'About',
+      name: 'Giới thiệu',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Kinh Nghiệm',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Công việc',
       url: '/#projects',
     },
     {
-      name: 'Contact',
+      name: 'Liên hệ',
       url: '/#contact',
     },
   ],
 
   colors: {
-    green: '#64ffda',
+    red: '#ef6b73',
     navy: '#0a192f',
     darkNavy: '#020c1b',
   },

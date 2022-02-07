@@ -80,7 +80,7 @@ const StyledProject = styled.li`
     margin-bottom: 35px;
 
     .folder {
-      color: var(--green);
+      color: var(--red);
       svg {
         width: 40px;
         height: 40px;
@@ -209,7 +209,7 @@ const Projects = () => {
   const projects = data.projects.edges.filter(({ node }) => node);
   const firstSix = projects.slice(0, GRID_LIMIT);
   const projectsToShow = showMore ? projects : firstSix;
-
+  const showMoreBtnVisible = projects.length > GRID_LIMIT;
   const projectInner = node => {
     const { frontmatter, html } = node;
     const { github, external, title, tech } = frontmatter;
@@ -264,10 +264,10 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>Dự án khác</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
+        Xem đầy đủ
       </Link>
 
       <ul className="projects-grid">
@@ -300,10 +300,11 @@ const Projects = () => {
           </TransitionGroup>
         )}
       </ul>
-
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
+      {showMoreBtnVisible && (
+        <button className="more-button" onClick={() => setShowMore(!showMore)}>
+          {showMore ? 'Thu gọn' : 'Xem thêm'}
+        </button>
+      )}
     </StyledProjectsSection>
   );
 };

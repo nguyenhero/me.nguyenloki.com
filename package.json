@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "me.nguyenloki.com",
+  "description": "Trang web cá nhân của nguyễn",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Nguyễn Loki <nguyenbv1994@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/nguyenhero/me.nguyenloki.com"
   },
   "keywords": [
     "gatsby"

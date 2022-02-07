@@ -16,7 +16,7 @@ const StyledContactSection = styled.section`
   .overline {
     display: block;
     margin-bottom: 20px;
-    color: var(--green);
+    color: var(--red);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
@@ -55,17 +55,14 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">&nbsp;</h2>
 
-      <h2 className="title">Get In Touch</h2>
+      <h2 className="title">Liên hệ</h2>
 
-      <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-      </p>
+      <p>Bạn có thể liên hệ tôi qua email cá nhân</p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        Liên hệ ngay
       </a>
     </StyledContactSection>
   );
