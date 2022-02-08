@@ -4,9 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Nguyễn Loki',
     description: 'Giới thiệu về Nguyễn Loki',
-    siteUrl: 'https://me.nguyenloki.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    siteUrl: 'https://me.nguyenloki.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -76,7 +74,7 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.green },
+              tracedSVG: { color: config.colors.red },
             },
           },
           {
