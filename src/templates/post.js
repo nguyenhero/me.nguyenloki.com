@@ -61,14 +61,14 @@ const PostTemplate = ({ data, location }) => {
       <StyledPostContainer>
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
-          <Link to="/pensieve">All memories</Link>
+          <Link to="/pensieve">Tất cả bài viết</Link>
         </span>
 
         <StyledPostHeader>
           <h1 className="medium-heading">{title}</h1>
           <p className="subtitle">
             <time>
-              {new Date(date).toLocaleDateString('en-US', {
+              {new Date(date).toLocaleDateString('vi-VN', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',

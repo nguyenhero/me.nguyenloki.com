@@ -38,15 +38,15 @@ const TagsPage = ({
   location,
 }) => (
   <Layout location={location}>
-    <Helmet title="Tags" />
+    <Helmet title="Từ khóa" />
 
     <StyledTagsContainer>
       <span className="breadcrumb">
         <span className="arrow">&larr;</span>
-        <Link to="/pensieve">All memories</Link>
+        <Link to="/pensieve">Tất cả bài viết</Link>
       </span>
 
-      <h1>Tags</h1>
+      <h1>Từ khóa</h1>
       <ul className="fancy-list">
         {group.map(tag => (
           <li key={tag.fieldValue}>
