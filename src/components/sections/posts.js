@@ -26,6 +26,7 @@ const StyledPostsSection = styled.section`
   }
 
   .posts-grid {
+    width: 100%;
     ${({ theme }) => theme.mixins.resetList};
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -231,7 +232,7 @@ const Posts = () => {
           <ul className="post-tags">
             {tags.map((tag, i) => (
               <li key={i}>
-                <Link to={`/pensieve/tags/${kebabCase(tag)}/`} className="inline-link">
+                <Link to={`/blogs/tags/${kebabCase(tag)}/`} className="inline-link">
                   #{tag}
                 </Link>
               </li>
@@ -246,7 +247,7 @@ const Posts = () => {
     <StyledPostsSection>
       <h2 ref={revealTitle}>Bài viết</h2>
 
-      <Link className="inline-link archive-link" to="/pensieve" ref={revealArchiveLink}>
+      <Link className="inline-link archive-link" to="/blogs" ref={revealArchiveLink}>
         Xem đầy đủ
       </Link>
 
