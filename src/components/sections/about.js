@@ -145,7 +145,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Xin chào, tôi là Bùi Văn Nguyễn. Tôi là lập trình viên fullstack. Tôi thích tiền, tiền
+              Xin chào, tôi là Bùi Văn Nguyễn. Tôi là lập trình viên fullstack. Tôi thích tiền, tôi
               sẽ làm mọi công việc liên quan tới lập trình miễn sao được nhiều tiền.
             </p>
 
