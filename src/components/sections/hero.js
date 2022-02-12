@@ -64,7 +64,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Tôi thích tiền, tiền sẽ làm mọi công việc liên quan tới lập trình miễn sao được nhiều tiền.
+        Tôi thích tiền,tôi sẽ làm mọi công việc liên quan tới lập trình miễn sao được nhiều tiền.
       </p>
     </>
   );
